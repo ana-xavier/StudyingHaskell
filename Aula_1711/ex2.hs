@@ -1,4 +1,3 @@
-import System.Win32 (xBUTTON1)
 -- Defina a função third :: [a] -> a que retorna o terceiro elemento de uma lista que 
 -- contenha no mínimo três elementos usando:
 -- a) As funções head e tail.
