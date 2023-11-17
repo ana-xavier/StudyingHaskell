@@ -21,3 +21,13 @@ armstrong x = sum [d^n | d <- ds] == x
                       n = length(digitos x)
 
 
+getValorNumerico :: IO Int
+getValorNumerico = readLn
+
+main = do
+        putStrLn "Digite um valor:"
+        n <- getValorNumerico
+        putStrLn ("Resultado:" ++ show(armstrong n))
+
+        
+
