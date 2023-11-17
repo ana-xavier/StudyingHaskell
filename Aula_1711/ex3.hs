@@ -15,3 +15,9 @@ digitos :: Int -> [Int]
 digitos 0 = []
 digitos x = digitos (x `div` 10) ++ [x `mod` 10]     -- > "div" divisão; "++": concatena.
 
+armstrong :: Int -> Bool
+armstrong x = sum [d^n | d <- ds] == x
+                where ds = digitos x
+                      n = length(digitos x)
+
+
