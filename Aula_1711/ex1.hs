@@ -10,12 +10,12 @@ mdc :: Int -> Int -> Int
 mdc a b = if b == 0 then a else mdc b (a `mod` b)
 -- --> expressão ternária
 
-mdc a b | b == 0 = a 
-        | otherwise = mdc b (a `mod` b)
+--mdc a b | b == 0 = a 
+--        | otherwise = mdc b (a `mod` b)
 -- --> guarda
 
-mdc a 0 = a
-mdc a b = mdc b (a `mod` b)
+--mdc a 0 = a
+--mdc a b = mdc b (a `mod` b)
 -- --> pattern matching
 
 
