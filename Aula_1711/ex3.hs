@@ -27,7 +27,7 @@ getValorNumerico = readLn
 main = do
         putStrLn "Digite um valor:"
         n <- getValorNumerico
-        putStrLn ("Resultado:" ++ show(armstrong n))
+        putStrLn ("Resultado:" ++ show (armstrong n))
 
-        
+
 
