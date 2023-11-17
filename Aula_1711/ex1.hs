@@ -11,7 +11,7 @@ mdc a b = if b == 0 then a else mdc b (a `mod` b)
 -- --> expressão ternária
 
 mdc a b | b == 0 = a 
-         | otherwise = mdc b (a `mod` b)
+        | otherwise = mdc b (a `mod` b)
 -- --> guarda
 
 mdc a 0 = a
