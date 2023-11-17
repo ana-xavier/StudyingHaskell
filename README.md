@@ -3,3 +3,5 @@
 🌱 - Aula_2508: Definindo funções; Trabalhando com expressões condicionais, equações guardadas, casamento de padrões e padrões sob listas.
 
 🌱 - Aula_0109: Listas e recursão; Trabalhando com geradores dependentes, guardas, função zip e funções recursivas.
+
+🌱 - Aula_2209: Funções de Alta Ordem.
